@@ -15,7 +15,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>baitap07</name>
-    <description>Bài tập 07 - CRUD API</description> <!-- ĐÃ SỬA LỖI Ở ĐÂY -->
+    <description>Bài tập 07 - CRUD API</description> 
     
     <properties>
         <java.version>21</java.version>
@@ -28,7 +28,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- Core Spring Boot: Web, Data JPA, Validation -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -46,7 +45,6 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
 
-        <!-- Database & Utilities -->
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
@@ -58,7 +56,6 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- Thư viện theo tài liệu hướng dẫn (Upload & Swagger 3) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
